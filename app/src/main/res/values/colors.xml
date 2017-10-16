@@ -1,0 +1,75 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="background">#004be5</color>
+
+    
+     <color name="global_gray_bg">#f0f0f0</color>
+    <color name="window_bg">#ffeef1f3</color>
+    <color name="page_bg">#fcfcfc</color> <!-- 顶部标题的背景色 -->
+    <color name="qqblue">#ff54acea</color>
+    <color name="transparent">#00000000</color>
+    <color name="title_bg">#004be5</color> <!-- 顶部标题的背景色 -->
+    <color name="title_forecolor">#FFF</color> <!-- 顶部标题的默认色 -->
+    <color name="bar_bg">#004be5</color> <!-- tab导航背景色 -->
+    <color name="bar_forecolor_on">#FFF</color> <!-- tab导航文字的选中色 -->
+    <color name="bar_forecolor_off">#FFF</color> <!-- tab导航文字的默认色 -->
+    <color name="bar_line">#bbbbbb</color> <!-- 导航条的灰色分割线 -->
+    <color name="head">#000</color> <!-- 消息标题颜色 -->
+    <color name="subhead">#767676</color> <!-- 消息副标题颜色 -->
+    <color name="app_bg">#fff</color> <!-- 应用的背景色 -->
+    <color name="discover_item_bg">#fff</color> <!-- 发现Item的背景色 -->
+
+    <color name="line">#b6b6b6</color> <!-- 分割线 -->
+    <color name="me_top_button_split">#bbffffff</color> <!-- 按钮背景分割线 -->
+    <color name="me_top_button">#ddfcad18</color> <!-- 按钮背景 -->
+    <color name="me_bg">#ffe9e9e9</color> <!-- 灰色背景 -->
+    <color name="me_submenu">#767676</color> <!-- 副标题（内容）颜色 -->
+
+    <color name="btn_bg1">#75ca69</color> <!-- 按钮背景色 -->
+    <color name="btn_bg">#ff6b07</color> <!-- 按钮背景色 -->
+    <color name="btn_bg_on">#c36500</color> <!-- 按钮背景色(按住) -->
+    <color name="btn_bg_off">#b6b6b6</color> <!-- 按钮背景色(失效状态) -->
+
+    <drawable name="btn_bg">#ffda10</drawable> <!-- 按钮背景色 -->
+    <drawable name="btn_bg_on">#e9c70b</drawable> <!-- 按钮背景色(按住) -->
+    <drawable name="btn_bg_off">#b6b6b6</drawable> <!-- 按钮背景色(失效状态) -->
+
+ 
+    <drawable name="tab_chat_list_item_bg_normal">#ffffff</drawable>
+    <drawable name="tab_chat_list_item_bg_pressed">#f2f2f2</drawable>
+ 
+    <drawable name="tab_discover_list_item_bg_normal">#ffffff</drawable>
+    <drawable name="tab_discover_list_item_bg_pressed">#f2f2f2</drawable>
+
+    <color name="discover_bg">#ffe9e9e9</color> 
+    <color name="discover_text_color">#3b3b3b</color>  
+ 
+	<color name="resend_verification_text_default_color">#000000</color>
+	<color name="resend_verification_text_unable_color">#e3e3e3</color>
+	 
+    <color name="contacts_list_item_bg">#ffffff</color>
+    <color name="contacts_list_item_user_name_text_color">#333333</color>
+    <color name="contacts_group_item_bg_color">#f2f2f2</color>
+    <color name="contacts_search_result_if_friends_true">#98999b</color>
+    <color name="contacts_search_result_if_friends_false">#66b238</color>
+    <color name="contacts_search_result_press_color">#000000</color>
+ 
+    <drawable name="vpi__tab_unselected_holo">#00000000</drawable>
+    <drawable name="vpi__tab_selected_holo">#00000000</drawable>
+    <drawable name="vpi__tab_unselected_focused_holo">#00000000</drawable>
+    <drawable name="vpi__tab_selected_focused_holo">#00000000</drawable>
+    <drawable name="vpi__tab_unselected_pressed_holo">#00000000</drawable>
+    <drawable name="vpi__tab_selected_pressed_holo">#00000000</drawable>
+    <drawable name="common_item_bar_default_color">#ffffff</drawable>
+    <drawable name="common_item_bar_pressed_color">#c0c0c0</drawable>
+    <drawable name="user_home_page_add_friend_btn_default_bg">#22c064</drawable>
+    <drawable name="user_home_page_add_friend_btn_pressed_bg">#339966</drawable>
+    <drawable name="user_home_page_add_friend_btn_enable_false_bg">#969696</drawable>
+     <drawable name="delete_friend_btn_default_bg">#fd3d3a</drawable>
+    <drawable name="delete_friend_btn_pressed_bg">#ef3a37</drawable>
+     
+    <color name="group_member_item_manager_text_color">#959597</color>
+    <color name="nearby_indicator_color">#ff2727</color>
+    
+</resources>

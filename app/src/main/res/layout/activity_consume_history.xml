@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/common_top_bar_layout_with_backbtn" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#f3f3f3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="13dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_input_bg"
+                android:padding="1dp"
+                android:focusableInTouchMode="true">
+
+                <ImageView
+                    android:id="@+id/search_icon"
+                    android:layout_width="25dp"
+                    android:layout_margin="7dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_search_user" />
+
+                <EditText
+                    android:id="@+id/searchKeyEdit"
+                    android:layout_toRightOf="@+id/search_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:ems="10"
+                    android:hint="@string/please_input_shop_name"
+                    android:padding="5dp"
+                    android:paddingLeft="11dp"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:textColor="#4c4c4c"
+                    android:textColorHint="#d8d8d8"
+                    android:imeOptions="actionSearch"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/btn_clear_edit"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/clear_edit_btn"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="7dp"
+                    android:padding="7.5dp" />
+
+
+            </RelativeLayout>
+
+            <Spinner
+                android:id="@+id/spinnerType"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="42dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginLeft="5dp"
+                android:singleLine="true"
+                android:textColor="#494949"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:background="#f4f4f4"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:onClick="selectStartTime"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/txt_start_time"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:hint="开始时间"
+                    android:paddingTop="3dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="3dp"
+                    android:textSize="12sp"
+                    android:singleLine="true"
+                    android:textColorHint="#d5d5d5"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_date_sign" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="至"
+                android:textColor="#666666"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp" />
+
+            <LinearLayout
+                android:onClick="selectEndTime"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/txt_end_time"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:hint="结束时间"
+                    android:paddingTop="3dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="3dp"
+                    android:textSize="12sp"
+                    android:textColorHint="#d5d5d5"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_date_sign" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/search_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/confirm_dialog_confirm_btn_bg"
+                android:text="查询"
+                android:textSize="14sp"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:paddingTop="7dp"
+                android:layout_marginLeft="8dp"
+                android:paddingBottom="7dp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#dddce0"
+            android:layout_height="1px" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:dividerHeight="1px"
+            android:divider="#d6d6d6"
+            android:id="@+id/listView" />
+    </LinearLayout>
+
+
+</LinearLayout>

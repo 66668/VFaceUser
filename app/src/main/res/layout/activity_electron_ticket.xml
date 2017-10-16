@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/common_top_bar_layout_with_backbtn" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f3f3f3"
+        android:orientation="vertical"
+        >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您好，您已经成功消费。"
+            android:textSize="18sp"
+            android:textColor="#fd8243"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/ticket_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="35dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="35dp"
+
+            />
+
+        <TextView
+            android:id="@+id/store_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="35dp"
+
+            />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="35dp"
+
+            />
+
+        <TextView
+            android:onClick="seeDetail"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:text="查看消费明细"
+            android:paddingTop="13dp"
+            android:paddingBottom="13dp"
+            android:background="@drawable/shop_detail_call_btn_bg"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            />
+
+        </LinearLayout>
+
+
+</LinearLayout>

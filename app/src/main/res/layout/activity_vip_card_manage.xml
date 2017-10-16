@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/common_top_bar_layout_with_backbtn" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#f2f2f2"
+        android:gravity="center_vertical"
+        android:padding="9dp">
+
+        <EditText
+            android:id="@+id/store_name_edit"
+            android:layout_width="0dp"
+            android:layout_weight="198"
+            android:hint="请输入商家名称"
+            android:background="@drawable/edittext_bg"
+            android:gravity="center_vertical"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:textAlignment="inherit"
+            android:paddingLeft="6dp"
+            android:layout_height="30dp" />
+
+        <Spinner
+            android:id="@+id/shop_type_spinner"
+            android:layout_width="0dp"
+            android:layout_weight="198"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginLeft="13dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/search_btn"
+            android:layout_width="0dp"
+            android:layout_weight="120"
+            android:text="搜索"
+            android:layout_marginLeft="13dp"
+            android:background="#41a3d6"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_height="30dp" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#d6d6d6" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:background="#f3f3f3"
+        android:divider="#d6d6d6"
+        android:dividerHeight="1px" />
+
+</LinearLayout>

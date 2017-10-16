@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">唯脸</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="copyrights">VFace Copyright 2014-2018</string>
+    <string name="network_invalid">亲，您的网络不给力，请检查网络！</string>
+    <string name="common_error">数据处理失败，请联系客服</string>
+    <string name="data_error">返回数据错误</string>
+    <string name="connect_host_fail">连接服务器失败</string>
+    <string name="skip">跳过</string>
+    <string name="login_local_fail">登录失败！</string>
+    <string name="title_error">错误提示</string>
+    <string name="confirm">确定</string>  
+    <string name="done">完成</string>
+    <string name="cancel">取消</string>
+    <string name="loading">加载中</string>
+    
+     <!-- Login -->
+    <string name="login">登录</string>
+    <string name="password">密码</string>
+    <string name="account">用户名</string>
+    <string name="account_hint">请输入账号</string>
+    <string name="please_input_account">请输入用户名</string>
+    <string name="please_input_password">请输入密码</string>
+    <string name="please_input_validcode">请输入验证码</string>
+    <string name="please_input_your_phone_num">请输入您的手机号</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="get_back_password">找回密码</string>
+    <string name="get_back_password_hint">请输入你的用户名</string>
+    <string name="net_erro_tips">没有网络连接，请重试</string>
+    <string name="retry">重试</string>
+    <string name="please_choose_system_album_pic">请选择相册图片</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="unknow">未知</string>
+    <string name="change_password">修改密码</string>
+    <string name="activity_get_mobile_for_register_agree_agreement">我已阅读并同意《唯脸用户协议》</string>
+
+    <!-- 创建会员 -->
+    <string name="create_user">创建会员</string>
+    <string name="save">保存</string>
+    <string name="upload_avatar_success">头像上传成功</string>
+    <string name="upload_avatar_failed">头像上传失败</string>
+
+
+    <!-- 附近商家 -->
+    <string name="near_by_shops">附近商家</string>
+    <string name="shop_infos">商家信息</string>
+
+
+    <!-- 会员卡管理 -->
+    <string name="vip_card_manage">会员卡管理</string>
+
+    <!-- 消费记录 -->
+    <string name="consume_history">消费记录</string>
+    <string name="electronic_invoice">电子小票</string>
+
+
+    <!-- 设置 -->
+    <string name="config">设置</string>
+    <string name="change_language">设置语言</string> 
+    <string name="change_password_success">设置新密码成功！</string>
+    <string name="change_password_failed">设置新密码失败！</string>
+    <string name="no_bind_phone_tips1">您目前还没有绑定手机，请拨打客服热线</string>
+    <string name="no_bind_phone_tips2">找回密码。</string>
+    <string name="network_config">网络设置</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="clear_cache_success">清理完成</string>
+    <string name="clearing_cache">正在清理</string>
+    <string name="notice_config">勿扰模式</string>
+    <string name="notice_start_time">开始时间</string>
+    <string name="notice_end_time">结束时间</string>
+    <string name="config_date">设置日期</string>
+    <string name="config_time">设置时间</string>
+    <string name="please_input_current_password">请输入当前密码</string>
+    <string name="please_input_new_password">请输入新密码</string>
+    <string name="please_input_new_password_again">再次确认新密码</string>
+    <string name="current_password_can_not_be_null">当前密码不能为空</string>
+    <string name="new_password_can_not_be_null">新密码不能为空</string>
+    <string name="two_password_is_not_same">两次新密码输入不一致</string>
+    <string name="use_in_2g_3g_4g">在2G/3G/4G情况下使用</string>
+    <string name="only_use_in_wifi">仅在wifi情况下使用</string>
+    <string name="current_version">当前版本</string>
+    <string name="update_tips">升级提示</string>
+    <string name="no_update_this_time">暂不升级</string>
+    <string name="last_version_already">已是最新版本</string>
+    <string name="update_now">立即升级</string>
+    <string name="about_app">关于应用</string>
+    <string name="log_out">退出登录</string>
+    <string name="quit">退出</string>
+
+    <!--高德-->
+    <string name="error_network">搜索失败,请检查网络连接！</string>
+    <string name="error_key">key验证无效！</string>
+    <string name="error_other">未知错误，请稍后重试!错误码为</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <string name="please_input_shop_name">请输入商家名称</string>
+    <string name="resend_verification_code">重发验证码</string>
+    <string name="vip_card_detail">会员卡明细</string>
+    <string name="service_detail">服务使用明细</string>
+
+</resources>

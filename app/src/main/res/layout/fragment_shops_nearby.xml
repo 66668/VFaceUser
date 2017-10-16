@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#f8f8f8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_input_bg"
+        android:padding="1dp"
+        android:focusableInTouchMode="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginTop="0dp">
+
+
+        <ImageView
+            android:id="@+id/search_icon"
+            android:layout_width="25dp"
+            android:layout_margin="7dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_search_user" />
+
+        <EditText
+            android:id="@+id/searchKeyEdit"
+            android:layout_toRightOf="@+id/search_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:background="#FFF"
+            android:ems="10"
+            android:hint="@string/please_input_shop_name"
+            android:padding="5dp"
+            android:paddingLeft="11dp"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="#4c4c4c"
+            android:textColorHint="#d8d8d8"
+            android:imeOptions="actionSearch"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/btn_clear_edit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/clear_edit_btn"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="7dp"
+            android:padding="7.5dp" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#dddce0"
+        android:layout_height="1px" />
+
+    <ListView
+        android:id="@+id/shops_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f3f3f3"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#d6d6d6"
+        android:dividerHeight="1px" />
+
+</LinearLayout>

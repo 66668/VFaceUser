@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/common_top_bar_layout_with_backbtn" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f3f3f3"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义欢迎语（20字以内）"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="22dp" />
+
+        <EditText
+            android:id="@+id/welcome_edit"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="13dp"
+            android:hint="请输入你的欢迎语"
+            android:textSize="16sp"
+            />
+
+        <CheckBox
+            android:id="@+id/voice_welcome_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="启用语音欢迎"
+            android:textColor="#999999"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shop_detail_call_btn_bg"
+            android:text="保存"
+            android:textColor="#ffffff"
+            android:onClick="save"
+            android:clickable="true"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:paddingTop="13dp"
+            android:paddingBottom="13dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
